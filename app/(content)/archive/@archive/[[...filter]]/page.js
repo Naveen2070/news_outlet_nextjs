@@ -7,6 +7,7 @@ import {
 } from '@/lib/news';
 import Link from 'next/link';
 
+
 export default function FilterNewsPage({ params }) {
   let links = getAvailableNewsYears();
   const filter = params.filter;
