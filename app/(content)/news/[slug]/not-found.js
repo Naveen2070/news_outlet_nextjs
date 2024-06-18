@@ -1,13 +1,8 @@
-import Link from 'next/link';
-
-export default function NewsNotFound() {
+export default function NewsNotFoundPage() {
   return (
     <div id="error">
-      <h1>News Not Found</h1>
-      <p>
-        Sorry, we couldn't find what you were looking for.
-        <Link href="/news">Back to News</Link>
-      </p>
+      <h1>Not Found!</h1>
+      <p>Unfortunately, we could not find the requested article.</p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-export default function NewsDeatilsLayout({ children, modal }) {
+export default function NewsDetailLayout({ children, modal }) {
   return (
     <>
       {modal}
